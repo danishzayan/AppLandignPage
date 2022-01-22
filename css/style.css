@@ -3,9 +3,10 @@
 
 :root{
     --primary-color: #f9a826;
+    --hover-color : #ec960c;
     --dark-color: #21252f;
     --body-color: #888;
-    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.363);
 }
 
 /* ********* Universal selector ********  */
@@ -80,15 +81,72 @@ body{
 /* *********** Navbar end *********** */
 
 /* ******* main text and svg start ********* */
-h1, h2, h3,
+h1, h2, h3, h4, h5, h6,
 .display-4{
     color: var(--dark-color);
+    font-weight: 700;
 }
 .background{
-    background:linear-gradient(to top right, rgba(249, 168, 38, 0.589)50%, rgba(249, 168, 38, 0.76)), url(../images/background2.jpg);
+    background:linear-gradient(to top right, rgba(39, 37, 33, 0.637)50%, rgba(36, 34, 31, 0.76)), url(../images/background2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;				 
 }
+.button{
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.btn-1{
+    background-color: var(--primary-color);
+    font-size: large;
+}
+.btn-1:hover{
+    background-color: var(--hover-color);
+}
+.btn-2{
+    background: transparent;
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+.btn-2:hover{
+    background-color: var(--primary-color);
+}
+
 /* ******* main text and svg end ********* */
 
+/* ********* services section  ******* */
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+h4{
+    color: var(--primary-color);
+}
+p{
+    color: var(--dark-color);
+}
+.card-box{
+    background-color: #fff;
+    border: 3px solid var(--primary-color);
+    padding: 25px;
+    box-shadow: var(--box-shadow);
+    transition: all 0.35s ease;
+}
+.card-box:hover{
+    transform: translateY(5px);
+}
+.icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 30px;
+}
