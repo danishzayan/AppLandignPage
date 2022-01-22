@@ -1,0 +1,109 @@
+/* ********* Universal selector ********  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ********* Universal selector end ********  */
+
+/* *********** Navbar start *********** */
+.navbar-brand{
+    height: 45px;
+    width: 100px;
+    background-color: #f9a826;
+    font-weight: 700;
+    font-size: x-large;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-item{
+    padding-right: 30px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    color: #000;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #f9a826;
+}
+
+.download{
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+    background-color: #f9a826;
+    letter-spacing: 1px;
+    /* box-shadow: 0px 2px 4px rgb(0,0,0,0.3);  */
+    transition: 0.5s;
+}
+.download:hover{
+    background-color: #ec960c;
+    cursor: pointer;
+}
+/* *********** Navbar end *********** */
+
+/* ******* main text and svg start ********* */
+.heading{
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.heading::first-letter{
+    font-size: 4.5rem;
+}
+.paragraph{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.button{
+    width: 145px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    transition: 0.5s;
+    color: #fff;
+    margin-top: 20px;
+}
+#btn1{
+    background-color: #f9a826;
+}
+#btn1:hover{
+    background: #ec960c;
+    cursor: pointer;
+}
+#btn2{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    margin-left: 15px;
+}
+#btn2:hover{
+    background-color: #f9a826;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.navbar-toggler .navbar-toggler-icon{
+    outline-color: none;
+    border-color: ;
+}
+/* ******* main text and svg end ********* */
+
