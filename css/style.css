@@ -75,7 +75,7 @@ body{
     transition: 0.5s;
 }
 .download:hover{
-    background-color: #ec960c;
+    background-color: var(--hover-color);
     cursor: pointer;
 }
 /* *********** Navbar end *********** */
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6,
 /* ********* services section  ******* */
 section{
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 h4{
     color: var(--primary-color);
@@ -132,6 +132,7 @@ p{
 .card-box{
     background-color: #fff;
     border: 3px solid var(--primary-color);
+    border-radius: 10px;
     padding: 25px;
     box-shadow: var(--box-shadow);
     transition: all 0.35s ease;
@@ -150,3 +151,54 @@ p{
     color: #fff;
     font-size: 30px;
 }
+/* services section end  */
+
+/* features section start  */
+.active {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
+/* features section end  */
+
+/* pricing table start  */
+.card-body {
+    border: 3px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    transition: all 0.35s ease;
+}
+.card-body:hover{
+    transform: translateY(5px);
+}
+ul{
+    color: var(--dark-color);
+}
+.btn{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn:hover{
+    background-color: var(--hover-color);
+    color: #fff;
+}
+/* pricing table end  */
+
+/* footer section start  */
+#footer{
+    /* margin-top: 50px; */
+    background-color: var(--primary-color);
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: var(--dark-color);
+}
+#button-addon2{
+    background-color: var(--dark-color);
+}
+/* footer section end  */
